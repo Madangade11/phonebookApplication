@@ -3,11 +3,11 @@ package com.bikkadit.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.bikkadit.model.contact;
+import com.bikkadit.model.Contact;
 
 
 @Repository
-public interface ContactRepository extends JpaRepository<contact, Integer> {
+public interface ContactRepository extends JpaRepository<Contact, Integer> {
 
 
 }
